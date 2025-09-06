@@ -3,7 +3,7 @@ name: Publish Python Package
 on:
   push:
     tags:
-      - 'v*.*.*'  # Triggers on version tags
+      - 'v*.*'  # Triggers on version tags
 
 jobs:
   build-and-publish:
